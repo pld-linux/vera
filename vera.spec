@@ -1,4 +1,4 @@
-Summary:        V.E.R.A - divtionary of computer-releated acronyms
+Summary:        V.E.R.A - dictionary of computer-releated acronyms
 Summary(pl):    V.E.R.A - s這wnik skr鏒闚 zwi您anych z komputerami
 Name:           vera
 Version:        1.8
@@ -12,7 +12,7 @@ URL:            http://www.sacredchao.net/software/reed
 BuildRoot:      %{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-V.E.R.A - divtionary of computer-releated acronyms.
+V.E.R.A - dictionary of computer-releated acronyms.
 
 %description -l pl
 V.E.R.A - s這wnik skr鏒闚 zwi您anych z komputerami.
