@@ -1,11 +1,11 @@
 Summary:	V.E.R.A - dictionary of computer-releated acronyms
 Summary(pl):	V.E.R.A - s這wnik skr鏒闚 zwi您anych z komputerami
 Name:		vera
-Version:	1.8
+Version:	1.9
 Release:	1
 License:	GPL
 Group:		Applications/Text
-Source0:	ftp://sunsite.icm.edu.pl/pub/gnu/%{name}/%{name}-%{version}.tar.gz
+Source0:	ftp://ftp.gnu.org/gnu/vera/%{name}-%{version}.tar.gz
 Patch0:		%{name}-direntry.patch
 BuildRequires:	texinfo
 URL:		http://www.sacredchao.net/software/reed
@@ -18,7 +18,7 @@ V.E.R.A - dictionary of computer-releated acronyms.
 V.E.R.A - s這wnik skr鏒闚 zwi您anych z komputerami.
 
 %prep
-%setup  -q
+%setup -q
 %patch0 -p1
 
 %build
@@ -27,7 +27,7 @@ makeinfo vera.texi
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_infodir}
-install *info* $RPM_BUILD_ROOT%{_infodir}
+install vera.info* $RPM_BUILD_ROOT%{_infodir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
