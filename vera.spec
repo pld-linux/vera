@@ -9,7 +9,7 @@ Source0:	ftp://ftp.gnu.org/gnu/vera/%{name}-%{version}.tar.gz
 # Source0-md5:	ed6120dd9739c71580a92868a34776b0
 Patch0:		%{name}-direntry.patch
 BuildRequires:	texinfo
-URL:		http://www.sacredchao.net/software/reed
+URL:		http://www.sacredchao.net/software/reed/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
