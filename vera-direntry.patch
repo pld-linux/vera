@@ -1,0 +1,22 @@
+--- vera-1.7/vera.texi~	Tue Mar 13 16:45:56 2001
++++ vera-1.7/vera.texi	Sat Feb 23 02:29:14 2002
+@@ -27,15 +27,10 @@
+ @set AUTHOREMAIL <oheiabbd@@zedat.fu-berlin.de>
+ @c End of variables
+ 
+-@ignore
+-@ifinfo
+-@format
+-START-INFO-DIR-ENTRY
+-* V.E.R.A.:  (vera).        Virtual Entity of Relevant Aconyms
+-END-INFO-DIR-ENTRY
+-@end format
+-@end ifinfo
+-@end ignore
++@dircategory Miscellaneous
++@direntry
++* V.E.R.A.:  (vera).                    Virtual Entity of Relevant Aconyms
++@end direntry
+ 
+ @ifinfo
+ This is a special GNU edition of V.E.R.A.,
