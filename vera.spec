@@ -1,15 +1,15 @@
-Summary:        V.E.R.A - dictionary of computer-releated acronyms
-Summary(pl):    V.E.R.A - s這wnik skr鏒闚 zwi您anych z komputerami
-Name:           vera
-Version:        1.8
-Release:        1
-License:        GPL
-Group:          Applications/Text
-Source0:        ftp://sunsite.icm.edu.pl/pub/gnu/%{name}/%{name}-%{version}.tar.gz
-Patch0:         %{name}-direntry.patch
-BuildRequires:  texinfo
-URL:            http://www.sacredchao.net/software/reed
-BuildRoot:      %{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+Summary:	V.E.R.A - dictionary of computer-releated acronyms
+Summary(pl):	V.E.R.A - s這wnik skr鏒闚 zwi您anych z komputerami
+Name:		vera
+Version:	1.8
+Release:	1
+License:	GPL
+Group:		Applications/Text
+Source0:	ftp://sunsite.icm.edu.pl/pub/gnu/%{name}/%{name}-%{version}.tar.gz
+Patch0:		%{name}-direntry.patch
+BuildRequires:	texinfo
+URL:		http://www.sacredchao.net/software/reed
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 V.E.R.A - dictionary of computer-releated acronyms.
