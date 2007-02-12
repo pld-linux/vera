@@ -1,5 +1,5 @@
 Summary:	V.E.R.A - dictionary of computer-releated acronyms
-Summary(pl.UTF-8):   V.E.R.A - słownik skrótów związanych z komputerami
+Summary(pl.UTF-8):	V.E.R.A - słownik skrótów związanych z komputerami
 Name:		vera
 Version:	1.9
 Release:	1
