@@ -1,5 +1,5 @@
 Summary:	V.E.R.A - dictionary of computer-releated acronyms
-Summary(pl):	V.E.R.A - s硂wnik skr髏體 zwi眤anych z komputerami
+Summary(pl.UTF-8):   V.E.R.A - s艂ownik skr贸t贸w zwi膮zanych z komputerami
 Name:		vera
 Version:	1.9
 Release:	1
@@ -15,8 +15,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 V.E.R.A - dictionary of computer-releated acronyms.
 
-%description -l pl
-V.E.R.A - s硂wnik skr髏體 zwi眤anych z komputerami.
+%description -l pl.UTF-8
+V.E.R.A - s艂ownik skr贸t贸w zwi膮zanych z komputerami.
 
 %prep
 %setup -q
