@@ -5,7 +5,7 @@ Version:	1.9
 Release:	1
 License:	GPL
 Group:		Applications/Text
-Source0:	ftp://ftp.gnu.org/gnu/vera/%{name}-%{version}.tar.gz
+Source0:	http://ftp.gnu.org/gnu/vera/%{name}-%{version}.tar.gz
 # Source0-md5:	ed6120dd9739c71580a92868a34776b0
 Patch0:		%{name}-direntry.patch
 URL:		http://www.sacredchao.net/software/reed/
