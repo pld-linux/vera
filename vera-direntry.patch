@@ -1,5 +1,6 @@
---- vera-1.9/vera.texi~	Tue Mar 13 16:45:56 2001
-+++ vera-1.9/vera.texi	Sat Feb 23 02:29:14 2002
+diff -burNp vera-1.17/vera.texi vera-1.17-dud/vera.texi
+--- vera-1.17/vera.texi	2006-06-03 23:15:48.000000000 +0200
++++ vera-1.17-dud/vera.texi	2009-02-11 15:16:02.916541438 +0100
 @@ -27,15 +27,10 @@
  @set AUTHOREMAIL <ohei [at] snafu . de>
  @c End of variables
@@ -8,7 +9,7 @@
 -@ifinfo
 -@format
 -START-INFO-DIR-ENTRY
--* V.E.R.A.:  (vera).        Virtual Entity of Relevant Aconyms
+-* V.E.R.A.:  (vera).        Virtual Entity of Relevant Acronyms
 -END-INFO-DIR-ENTRY
 -@end format
 -@end ifinfo
