@@ -1,6 +1,6 @@
 diff -burNp vera-1.17/vera.texi vera-1.17-dud/vera.texi
---- vera-1.17/vera.texi	2006-06-03 23:15:48.000000000 +0200
-+++ vera-1.17-dud/vera.texi	2009-02-11 15:16:02.916541438 +0100
+--- vera-1.19/vera.texi.orig	2006-06-03 23:15:48.000000000 +0200
++++ vera-1.19/vera.texi	2009-02-11 15:16:02.916541438 +0100
 @@ -27,15 +27,10 @@
  @set AUTHOREMAIL <ohei [at] snafu . de>
  @c End of variables
