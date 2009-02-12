@@ -1,14 +1,14 @@
 Summary:	V.E.R.A - dictionary of computer-releated acronyms
 Summary(pl.UTF-8):	V.E.R.A - słownik skrótów związanych z komputerami
 Name:		vera
-Version:	1.17
+Version:	1.19
 Release:	1
 License:	GPL
-Group:		Applications/Text
-Source0:	http://ftp.gnu.org/gnu/vera/%{name}-%{version}.tar.gz
-# Source0-md5:	3e8f048295ceb66a8ac0aaeb36166979
+Group:		Applications/Dictionaries
+Source0:	http://home.snafu.de/ohei/FTP/%{name}-%{version}.tar.gz
+# Source0-md5:	1ca915d0ecd4617c54379f79e1b67914
 Patch0:		%{name}-direntry.patch
-URL:		http://www.sacredchao.net/software/reed/
+URL:		http://home.snafu.de/ohei/vera/vueber-e.html
 BuildRequires:	texinfo
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
