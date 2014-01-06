@@ -14,10 +14,12 @@ BuildRequires:	texinfo >= 5
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-V.E.R.A - dictionary of computer-releated acronyms.
+V.E.R.A - dictionary of computer-releated acronyms. This package
+contains the dictionary as Info document.
 
 %description -l pl.UTF-8
-V.E.R.A - słownik skrótów związanych z komputerami.
+V.E.R.A - słownik skrótów związanych z komputerami. Ten pakiet
+zawiera słownik w postaci dokumentu Info.
 
 %prep
 %setup -q
