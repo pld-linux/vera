@@ -1,7 +1,7 @@
---- vera-1.21/vera.texi.orig	2014-01-05 18:14:12.231023392 +0100
-+++ vera-1.21/vera.texi	2014-01-05 18:30:22.780983288 +0100
+--- vera-1.21a/vera.texi.orig	2014-01-11 19:39:11.429054214 +0100
++++ vera-1.21a/vera.texi	2014-01-11 19:52:52.862353074 +0100
 @@ -27,15 +27,10 @@
- @set AUTHOREMAIL <ohei [at] snafu . de>
+ @set AUTHOREMAIL < ohei [at] snafu . de >
  @c End of variables
  
 -@ignore

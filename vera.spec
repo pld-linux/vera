@@ -1,12 +1,12 @@
 Summary:	V.E.R.A - dictionary of computer-releated acronyms
 Summary(pl.UTF-8):	V.E.R.A - słownik skrótów związanych z komputerami
 Name:		vera
-Version:	1.21
+Version:	1.21a
 Release:	1
-License:	FDL v1.1+
+License:	FDL v1.3+
 Group:		Applications/Dictionaries
 Source0:	http://ftp.gnu.org/gnu/vera/%{name}-%{version}.tar.gz
-# Source0-md5:	b3ac74d4f5336512996142fc00e3e144
+# Source0-md5:	9004056a56a34529fcdb7571f41772d9
 Patch0:		%{name}-direntry.patch
 Patch1:		%{name}-texinfo.patch
 URL:		http://home.snafu.de/ohei/vera/vueber-e.html
@@ -46,5 +46,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README
+%doc README changelog
 %{_infodir}/vera.info*
